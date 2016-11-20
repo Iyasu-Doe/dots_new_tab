@@ -1,0 +1,98 @@
+body{
+  overflow:hidden;
+ margin:0px;
+ padding:0px; 
+  -webkit-user-select: none;
+  background-color:black;
+}
+
+/* Styling for canvas  */
+
+#can{
+  position:fixed;
+  top:0px;
+  left:0px;
+  z-index:10;
+}
+
+
+/*styling for the side bar.*/
+
+.urlitem{
+  -webkit-transition-duration:1s;
+  z-index:100;
+  position:fixed;
+  background-color:rgba(200,200,200,0.5);
+  width:60px;
+  height:60px;
+  left:0px;
+}
+.urlitem:hover{
+  width:85px;
+  background-color:#EEEEEE;
+}
+#first{
+  top:10px;
+  border-top-right-radius:20px;
+}
+#second{
+  top:70px;
+}
+#third{
+  top:130px;
+  border-bottom-right-radius:20px;
+}
+.imag{
+  margin-top:10px;
+  width:40px;
+  margin-left:10px;
+}
+
+
+/* Notes stylization */
+
+#innotes{
+  width:240px;
+  background-color:rgba(0,0,0,0);
+  border:solid black 0px;
+  border-bottom:solid #151515 1px;
+  padding:5px;
+  outline:none;
+  color:#151515;
+  font-family: 'Cantarell', sans-serif;
+  font-size:20px;
+}
+#mainnotesbod{
+  z-index:13;
+  font-family: 'Cantarell', sans-serif;
+  font-size:17px;
+  position:fixed;
+  top:0px;
+  left:-webkit-calc(100% - 250px);
+  -webkit-transition-duration:1s;
+  background-color:rgba(240,240,240,0.7);
+  box-shadow:inset 0px 0px 0px 0px black;
+  border-bottom-left-radius:20px;
+  width:250px;
+  color:#151515;
+  padding-bottom:1px;
+  
+  
+}
+::-webkit-input-placeholder{
+  color:black;
+}
+.buton{
+  -webkit-transition-duration:1s;
+  position:fixed;
+  margin-left:-50px;
+  
+  background-color:transparent;
+  border:solid #151515 0px;
+}
+.buton:hover{
+ background-color:rgba(230,0,0,1); 
+}
+#noteslist{
+  margin-left:20px;
+}
